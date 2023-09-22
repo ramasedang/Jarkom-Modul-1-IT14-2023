@@ -20,7 +20,8 @@ Jadi tinggal buka file pcap nya dan gunakan filter http untuk mencari paket dari
 [![JJKVowQ.md.png](https://iili.io/JJKVowQ.md.png)](https://freeimage.host/i/JJKVowQ)
 
 didapatkan `gunicorn` sebagai webserver, dan jika dimasukan mendapatkan flag nya
-
+### Kendala
+Tidak ada
 ## No 3
 ### Soal
 
@@ -44,7 +45,9 @@ Filter Wireshark yang Anda berikan ini digunakan untuk menangkap paket-paket yan
 [![JJKwr9n.md.png](https://iili.io/JJKwr9n.md.png)](https://freeimage.host/i/JJKwr9n)
 
 lalu setelah memasukan filter didapatkan paket dengan protkol UDP dan banyaknya berjumlah 21
+### Kendala
 
+Tidak ada
 ## No 4
 ### Soal
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
@@ -57,7 +60,9 @@ kita tinggal menggunakan filter `frame.number == 130`
 [![JJKO2bs.md.png](https://iili.io/JJKO2bs.md.png)](https://freeimage.host/i/JJKO2bs)
 
 Setelah itu tinggal di chcek 1 per satu checksum nya dan di inputkan ke soal hingga mendapatkan flag
+### Kendala
 
+Tidak ada
 ## No 5
 ## Soal
 Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
@@ -87,7 +92,9 @@ didapatkan nc baru yang menuju ke pertanyaan selanjutkan
 
 setelah menjawab pertanyaan tersebut sesuai file pcap nya maka akan didapatkan flag
 
+### Kendala
 
+Lumayan kesulitan saat mencari password zip
 ## No 6
 ## No 7
 ### Soal
@@ -102,7 +109,9 @@ Bukan wireshark lalu gunakan filter `ip.dst == 184.87.193.88`
 [![JJK6kPe.md.png](https://iili.io/JJK6kPe.md.png)](https://freeimage.host/i/JJK6kPe)
 
 Tinggal di hitung saja dan masukan ke nc nya dan didapatkan flag nya
+### Kendala
 
+Tidak ada
 ## No 8
 ### Soal
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
@@ -118,7 +127,9 @@ kita disuruh untuk membuat query filter untuk wireshark agar sesuai dengan soal
 Jika dimasukkan ke dalam nc ternyata benar
 
 [![JJKP0bV.md.png](https://iili.io/JJKP0bV.md.png)](https://freeimage.host/i/JJKP0bV)
+### Kendala
 
+Tidak ada
 ## No 9
 ### Soal
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
@@ -136,7 +147,9 @@ Query tersebut sudah sesuai soal
 ip.src == 10.51.40.1: Ini akan menangkap paket-paket yang memiliki alamat IP sumber 10.51.40.1, yang artinya paket-paket yang dikirim dari alamat IP tersebut.
 
 ip.dst != 10.39.55.34: Kondisi ini akan menangkap paket-paket yang memiliki alamat IP tujuan yang tidak sama dengan 10.39.55.34. Jadi, paket-paket dengan alamat IP tujuan selain dari 10.39.55.34 akan ditangkap.
+### Kendala
 
+Tidak ada
 ## No 10
 ### Soal
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
@@ -154,3 +167,6 @@ terdapat beberapa password dan username yang salah tapi yang benar ternyata yang
 dhafin:kesayangannyak0k0
 
 [![JJKs0MP.md.png](https://iili.io/JJKs0MP.md.png)](https://freeimage.host/i/JJKs0MP)
+### Kendala
+
+Tidak ada
