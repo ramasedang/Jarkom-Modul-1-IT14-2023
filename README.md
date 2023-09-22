@@ -5,6 +5,24 @@
 * Fransiskus Benyamin - NRP
 
 ## No 1
+### Soal
+User melakukan berbagai aktivitas dengan menggunakan protokol FTP.
+nc 10.21.78.111 12345
+diberikan file bernama soal1.pcapng
+
+### Analisa Soal
+
+Soal memberi hint bahwa user melakukan berbagai aktivitas dengan protokol FTP, dan diberikan file `.pcap` maka kita bisa menganalisis paket dengan wireshark
+
+### Jawaban
+Jadi, kita buka file pcap nya dan melakukan filter menggunakan keyword ftp 
+
+![8d14d7e7-0a9d-4026-8056-6ae7283d575d](https://github.com/ramasedang/Jarkom-Modul-1-IT14-2023/assets/73869671/c0147a31-dfe4-4f5b-8fc0-fad3e991818e)
+![4c049d1e-423d-420d-9957-6a4406c371a8](https://github.com/ramasedang/Jarkom-Modul-1-IT14-2023/assets/73869671/59d92c06-3ed0-446c-b010-d2fd51f9e5a7)
+
+lalu setelah menjawab beberapa pertanyaan mengenai sequence number dan acknowlegement number dari request store file dan responsenya, akan diberikan flag
+### Kendala
+Tidak ada
 ## No 2
 ### Soal
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
