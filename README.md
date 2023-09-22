@@ -2,7 +2,7 @@
 
  Modul 1 Jarkom IT14
 * Moh. Sulthan Arief Rahmatullah - 5027211045
-* Fransiskus Benyamin - NRP
+* Fransiskus Benyamin Sitompul - 5027211021
 
 ## No 1
 ### Soal
